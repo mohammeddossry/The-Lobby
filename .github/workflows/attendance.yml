@@ -24,7 +24,7 @@ jobs:
               await github.rest.repos.createUsingTemplate({
                 template_owner: 'OctoHigh',
                 template_repo: 'challenge-1',
-                name: `challenge-1-${process.env.LOGIN}`,
+                name: `challenge-1-`,
                 owner: 'OctoHigh',
                 private: false
               });
